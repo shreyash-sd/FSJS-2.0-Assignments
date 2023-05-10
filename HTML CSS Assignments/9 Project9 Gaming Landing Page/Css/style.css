@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,300&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+
+/*---------------------------- Nav intro background ----------------------- */
+
+.navIntro::before {
+    background: url("../Assets/Photos/futuristic-bg.png") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 1800px;
+    z-index: -1;
+}
+
+.navIntro {
+    background: rgba(0, 0, 0, 0.555);
+    height: 1400px;
+}
+
+/*--------------- Nav Bar  -----------------*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: #C7C6C6;
+}
+
+nav img {
+    width: 160px;
+}
+
+nav ul {
+  display: none;
+}
+
+nav button {
+   display: none;
+}
+
+.nav-menu {
+    font-size: 2.4rem;
+  }
+
+/*--------------------- intro section ---------------------------- */
+
+.intro {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    text-align: center;
+
+}
+
+.introfirstpara {
+    margin: 50px 0px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.introsecondpara {
+    color: #9A9899;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.intro-btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.intro button {
+    color: #fff;
+    font-size: 19px;
+    width: 200px;
+    height: 65px;
+    margin-top: 45px;
+}
+
+.getStarted {
+    background-color: #F4694C;
+    font-weight: 600;
+}
+
+.getStarted:hover{
+    background-color: #000308;
+    border: 2px solid #fff;
+}
+
+.learnmore {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.learnmore:hover{
+    border: none;
+    background-color: #F4694C;
+}
+
+.rightintro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.rightimage1:hover{
+    transform: scale(1.5);
+}
+
+.right-intro-down{
+    width: 100%;
+    position: relative;
+}
+
+.rightimage1 {
+    color: #fff;
+    width: 88px;
+}
+
+
+.rightintro p {
+    font-size: 27px;
+    color: #F0F7F8;
+}
+
+
+.rightintroarrow {
+    position:relative;
+    left: 120px;
+    width: 72px;
+}
+
+.right-intro-dash{
+    position: relative;
+    width: 55px;
+    right: 170px;
+    top: 28px;
+}
+
+/* ------------------ Popular Games ---------------------  */
+
+.popularGames {
+    margin-bottom: 128px;
+}
+
+.popularGamesPara {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin: 185px 0px 80px 0px;
+}
+
+.downloadgames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gameimg {
+    width: 332px;
+    height: 400px;
+}
+
+
+.game1 {
+    background-image: url('../Assets/Photos/image\ 2.png');
+    background-position: 74%;
+    background-size: cover;
+}
+
+.game1:hover{
+    transform: scale(1.1);
+}
+
+.game2 {
+    background-image: url('../Assets/Photos/image\ 4.png');
+    background-position: 52%;
+    background-size: cover;
+}
+
+.game2:hover{
+    transform: scale(1.1);
+}
+
+
+.game3 {
+    background-image: url('../Assets/Photos/image\ 3.png');
+    background-position: 48%;
+    background-size: cover;
+
+}
+
+.game3:hover{
+    transform: scale(1.1);
+}
+
+
+.game4 {
+    background-image: url('../Assets/Photos/Rectangle\ 56.png');
+    background-position: 45%;
+    background-size: cover;
+}
+
+.game4:hover{
+    transform: scale(1.1);
+}
+
+
+.gamedetail {
+    position: relative;
+    top: 280px;
+    display: flex;
+    color: #fff;
+    padding: 18px 0px 0px 16px;
+}
+
+.gamedetail1 {
+    background-color: #414547f1;
+}
+
+.gamedetail2 {
+    background-color: #13110ceb;
+}
+
+.gamedeatil3 {
+    background-color: #474b7dea;
+}
+
+.gamedetail4 {
+    background-color: #69584ef6;
+}
+
+.gamename {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.actions {
+    font-size: 14px;
+    color: #9EA0A0;
+    margin: 6px 0px;
+}
+
+.stars img {
+    width: 15px;
+    margin: 10px 2px;
+}
+
+.gameDownload {
+    color: #fff;
+    background-color: #F4694C;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    width: 118px;
+    height: 48px;
+    margin: 22px 0px 0px 28px;
+}
+
+.game3 button {
+    margin-left: 57px;
+}
+
+.game2 button {
+    margin-left: 40px;
+}
+
+/*------------------- War Game Section  ----------------*/
+
+.warGame {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    margin-bottom: 158px;
+}
+
+.leftWarGame {
+    background-image: url('../Assets/Photos/Rectangle\ 57.png');
+    background-position: 45%;
+    background-size: cover;
+    width: 595px;
+    height: 450px;
+}
+.leftWarGame:hover{
+    transform: scale(1.1);
+}
+
+.rightWarGameFirstPara {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: #121212;
+}
+
+.rightWarGameSecondPara {
+    color: #727272;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 35px 0px;
+    line-height: 2;
+}
+
+.war-game-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.rightWarGame button {
+    font-size: 19px;
+    width: 200px;
+    height: 62px;
+}
+
+.warGameExploreBtn {
+    color: #fff;
+    background-color: #F4694C;
+    font-weight: 600;
+    border: none;
+}
+
+.warGameExploreBtn:hover{
+    border: 2px solid rgb(249, 178, 178);
+    background: #000308;
+}
+
+.warGameLearnBtn {
+    border: 2px solid #F4694C;
+    color: #F4694C;
+    font-weight: 400;
+}
+
+.warGameLearnBtn:hover{
+    border: none;
+    background: #F4694C ;
+    color:#000308;
+}
+
+/*--------------------- Game Reccommend for week---------------------------  */
+
+.gameRecommend {
+    margin-bottom: 220px;
+}
+
+/*----------- upper side of game recommend-------------- */
+
+.upperGameRecommend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.leftGameRecommend p {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.rightGameRecommend {
+    display: flex;
+    gap: 20px;
+}
+
+.arrowBox {
+    width: 72px;
+    height: 72px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.arrowBox:hover{
+    transform: scale(1.2);
+}
+
+.arrowBox img {
+    width: 33px;
+}
+
+.leftArrowBox {
+    background-color: #FDE1DB;
+}
+
+.rightArrowBox {
+    background-color: #F4694C;
+}
+
+/*--------------- lower side of game recommend ----------- */
+
+.lowerGameRecommend {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 6.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.lowerGameRecommendDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gameRecommendImg {
+    width: 272px;
+    height: 325px;
+}
+
+.gameRecommendImg1 {
+    background-image: url('../Assets/Photos/Rectangle\ 75.png');
+    background-size: cover;
+}
+
+.gameRecommendImg:hover{
+    transform: scale(1.1);
+}
+
+.gameRecommendImg2 {
+    background-image: url('../Assets/Photos/Rectangle\ 76.png');
+    background-size: cover;
+}
+
+.gameRecommendImg3 {
+    background-image: url('../Assets/Photos/Rectangle\ 77.png');
+    background-position: 74%;
+    background-size: cover;
+}
+
+.gameRecommendImg4 {
+    background-image: url('../Assets/Photos/Rectangle\ 78.png');
+    background-size: cover;
+}
+
+.gameRecommendDetails {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.gameRecommendName {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.gameRecommendGenre {
+    color: #F47459;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 14px 0px;
+}
+
+.gameRecommendAbout {
+    color: #8C8C8C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.gameRecomendDownload {
+    color: #fff;
+    background-color: #F4694C;
+    border: none;
+    font-size: 19px;
+    font-weight: 500;
+    width: 175px;
+    height: 62px;
+    margin-top: 26px;
+}
+
+.gameRecomendDownload:hover{
+    background-color: rgb(249, 165, 165);
+    color: #000308;
+    border: 2px solid #000308;
+}
+
+
+/*----------------------- Most Played Games Section -------------------------------- */
+
+.mostPlayedGames {
+    background-color: #000308;
+    padding-bottom: 150px;
+}
+
+.mostPlayedGamesPara1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 0px 60px 0px;
+}
+
+.most-played-games-div{
+    position: relative;
+}
+
+.mostPlayedGamesPara2 {
+    color: #767779;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.mostPlayedGamesWrittenImg {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+
+
+.mostPlayedGamesImg1 {
+    width: 200px;
+    position: relative;
+    top:40px;
+    left:10px;
+}
+
+.mostPlayedGamesImg1:hover{
+    transform: scale(1.2);
+}
+
+.mostPlayedGamesImg2 {
+    width: 120px;
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
+
+.mostPlayedGamesImg2:hover{
+    transform: scale(1.1);
+}
+
+
+.mostPlayedGamesImg3 {
+   width: 250px;
+    position: relative;
+    left:20px;
+    top: 42px;
+}
+
+.mostPlayedGamesImg3:hover{
+    transform: scale(1.2);
+}
+
+
+/*---------------- Unforgettable Experience Section ------------------ */
+
+unforgettable-experience{
+    position: relative;
+}
+
+.experience::before {
+    background: url("../Assets/Photos/Rectangle\ 606.png") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    left: 0;
+    width:100%;
+    height: 595px;
+    z-index: -1;
+}
+
+.experience {
+    background: rgba(0, 0, 0, 0.692);
+    height: 595px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.experience:hover{
+    transform: scale(1.1);
+}
+
+
+.experiencePara1 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.experiencePara2 {
+    color: #7B7D78;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.experienceBtn {
+    background-color: #F4694C;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+/*----------------------- Footer Section  ----------------------*/
+
+footer {
+    background-color: #000309;
+    color: #9B9C9F;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0px 50px 0px;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul :hover{
+    color: rgb(229, 147, 147);
+}
+
+.logos p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.8;
+    margin: 15px 0px 30px 0px;
+}
+
+.logosImg {
+    display: flex;
+    gap: 20px;
+}
+
+.logosImg img {
+    width: 48px;
+}
+
+.footerDetails p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footerDetails ul {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2.5;
+}
+
+
+.end {
+    background-color: #000611;
+    height: 100px;
+}

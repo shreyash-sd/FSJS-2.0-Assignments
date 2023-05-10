@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.hidden{
+    display: none;
+}
+
+body {
+    background-color: #E6EAEC;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Nav intro section  */
+
+
+/* Nav intro background  */
+
+.navIntro::before {
+    background: url("../Assets/Photos/mainBackground.png") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+}
+
+.navIntro {
+    background: rgba(0, 0, 0, 0.495);
+    height: 900px;
+}
+
+/*--------------- Nav Bar ---------------------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+nav ul {
+    display: none;
+}
+
+nav ul li:hover{
+    color: #6663E9;
+}
+
+.nav-menu {
+    font-size: 2.4rem;
+    color: #FEFEFE;
+  }
+
+.horizontalhr {
+    background-color: #fff;
+    height: 1px;
+    width: 90%;
+    margin: 22px auto;
+}
+
+/*----------------------- intro section  ----------------------*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.introPara1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.introPara1:hover{
+    color: #A3A2E6;
+}
+
+.introPara2:hover{
+    color: #82ed58;
+}
+
+.introPara2 {
+    color: #CACDCD;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-top: 38px;
+}
+
+.intro button {
+    border: none;
+    border-radius: 60px;
+    margin-top: 55px;
+    width: 270px;
+    height: 83px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+
+    background: linear-gradient(to right, #CACDCD 50%,  #6663E9 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.intro button:hover{
+    border: 2px solid #27292E;
+    color:#000;
+    transition: all .5s ease-out;
+    background-position: left bottom;
+}
+
+.logoName {
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 40px 0px;
+    border-radius: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+
+    background: linear-gradient(to right, #c7e0f9 50%,  #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.logoName:hover{
+    color:#000;
+    transition: all .5s ease-out;
+    background-position: left bottom;
+}
+
+.logoName img {
+    width: 100px;
+}
+
+/*------------------------- Best Estate Section  ----------------------------------*/
+
+.bestEstatePara1 {
+    color: #27292E;
+    font-size: 84px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+/* <!-- Property photos, name, price and detail button  --> */
+
+.properties {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+}
+
+
+.propertyDetail {
+    width: 385px;
+    height: 430px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.propertyDetail:hover{
+    transition: 1.5s;
+  transform: rotateY(360deg);
+}
+
+.property1 {
+    background: url(../Assets/Photos/cardImage1.png) no-repeat center center/cover;
+    position: relative;
+}
+
+.property2 {
+    background: url(../Assets/Photos/cardImage2.png) no-repeat center center/cover;
+    background-position: 10%;
+    position: relative;
+}
+
+.property3 {
+    background: url(../Assets/Photos/cardImage3.png) no-repeat center center/cover;
+}
+
+.property4 {
+    background: url(../Assets/Photos/cardImage4.png) no-repeat center center/cover;
+}
+
+.property5 {
+    background: url(../Assets/Photos/cardImage5.png) no-repeat center center/cover;
+    position: relative;
+}
+
+.property6 {
+    background: url(../Assets/Photos/cardImage6.png) no-repeat center center/cover;
+    position: relative;
+}
+
+.property7 {
+    background: url(../Assets/Photos/cardImage7.png) no-repeat center center/cover;
+    position: relative;
+}
+
+.property8 {
+    background: url(../Assets/Photos/cardImage8.png) no-repeat center center/cover;
+    position: relative;
+}
+
+.property9 {
+    background: url(../Assets/Photos/cardImage9.png) no-repeat center center/cover;
+    background-position: 75%;
+}
+
+
+.propertyNamePrice{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.propertyNamePriceBtn {
+    background-color: #fff;
+    width: 88%;
+    height: 170px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 340px;
+}
+
+.propertyName {
+    font-size: 29px;
+    font-weight: 700;
+    color: #2F3542;
+}
+
+.propertyPrice {
+    color: #605CE7;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.propertyBtn button {
+    background-color: ;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    height: 70px;
+    border-radius: 40px;
+
+    background: linear-gradient(to right, #9decf4 50%,  #6663E9 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+
+.propertyBtn button:hover{
+    color:#000;
+    transition: all .5s ease-out;
+    background-position: left bottom;
+}
+
+/* --------------------- Modern House Book  --------------------- */
+
+.modernHouseBook {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.leftModernHOuseBook{
+    position: relative;
+}
+
+.leftModernHOuseBook:hover{
+    transition: 1.5s;
+    transform: rotate(360deg);
+}
+
+.rightUniqueHOuseBook:hover{
+    transition: 1.5s;
+    transform: rotate(-360deg);
+}
+
+.leftModernHOuseBook img {
+    margin-top: 370px;
+    width: 340px;
+}
+
+.houseImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+}
+
+.modernHouseImg {
+    position: absolute;
+    bottom: 90px;
+    left: 60px;
+    background: url(../Assets/Photos/featuresImage1.png) no-repeat center center/cover;
+}
+
+.bookingPara1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #26282D;
+}
+
+.bookingPara2 {
+    color: #6f7278;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bookingBtn {
+    color: #fff;
+    background-color: #6663E9;
+    border: none;
+    width: 285px;
+    height: 85px;
+    border-radius: 70px;
+    font-size: 22px;
+    font-weight: 600;
+
+    background: linear-gradient(to right, #9decf4 50%,  #6663E9 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+
+
+.bookingBtn:hover{
+
+    color:#000;
+    transition: all .5s ease-out;
+    background-position: left bottom;
+
+    
+}
+.rightModernHouseBook{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/*------------ Unique House Book  --------------------------- */
+
+.uniqueHouseBook {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+}
+
+.leftUniqueHouseBook{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.rightUniqueHOuseBook{
+    position: relative;
+    align-self: flex-end;
+}
+
+.rightUniqueHOuseBook img {
+    margin-top: 270px;
+    width: 340px;
+}
+
+.uniqueHouseImg {
+    position: absolute;
+    bottom: 70px;
+    right: 60px;
+    background: url(../Assets/Photos/featuresImage2.png) no-repeat center center/cover;
+}
+
+
+/* ---------- Subscribing newsletter  ----------- */
+
+.subscribe {
+    background-color: #6663E9;
+    margin: 120px 0px;
+    padding: 100px 0px;
+    border-radius: 90px;
+    color: #fff;
+    text-align: center;
+}
+
+.subscribePara1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.subscribePara2 {
+    color: #E6E6FC;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+.subscribeEmail {
+    display: flex;
+    margin-top: 75px;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.subscribeEmail input {
+    background-color: #5654D1;
+    border: none;
+    border-radius: 80px;
+    height: 82px;
+    width: 80%;
+    margin-right: 40px;
+}
+
+.subscribeEmail input:hover{
+    background: rgb(55, 52, 52);
+}
+
+.subscribeEmail input::placeholder {
+    background: url(../Assets/Icons/mail.png) no-repeat;
+    background-position-x: 5%;
+    color: #A3A2E6;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+
+.subscribeEmail button:hover{
+    color: #fff;
+    transition: all .5s ease-out;
+    background-position: left bottom;
+}
+
+.subscribeEmail button {
+
+    color: #5956E7;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 80px;
+    height: 82px;
+    width: 240px;
+
+    background: linear-gradient(to right, #69eff4 50%,  #FEFEFE 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+/* ----------- Footer Section  ---------------- */
+
+footer{
+    /* display: grid;
+    grid-template-columns: 3.6fr 1fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-bottom: 160px;
+    justify-content: center;
+}
+
+.footerLogoImg1{
+ width: 230px;
+ margin: 30px 0px;
+}
+
+.footerSocialMedia img{
+    width: 64px;
+    margin-right: 33px;
+}
+
+.footerPara1{
+    color: #292b30ce;
+    font-size: 25px;
+    line-height: 1.8;
+    margin-top: 35px;
+}
+
+.footerPara1:hover{
+    color:rgba(243, 48, 48, 0.495)
+}
+
+.footerDetails p{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.footerDetails ul{
+    color: #2e3035c5;
+    list-style-type: none;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 3.2;
+    margin-top: 27px;
+}
+
+.footerDetails p:hover{
+    color: rgb(244, 138, 138);
+}
+
+.footerDetails ul li:hover{
+    color: #5654D1;
+}

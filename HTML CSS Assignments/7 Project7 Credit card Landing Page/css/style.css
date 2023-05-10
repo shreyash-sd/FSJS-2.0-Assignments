@@ -1,0 +1,442 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,300&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     /* border: 1px solid red; */
+ }
+
+ body {
+     background-color: #151515;
+     font-family: 'Montserrat';
+     color: #f4f4f4d9;
+     max-width: 6712px;
+     overflow-x: hidden;
+ }
+
+ /*------------------ navigation bar ---------------------- */
+
+ nav {
+    width: 100%;
+     font-weight: 500;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-size: 1.3rem;
+     padding-top: 20px;
+ } 
+
+    .logo{
+        padding-left: 50px;
+    }
+
+ .option {
+    display: none;
+ }
+
+ nav> ul> li:hover{
+    color:#f637ec
+ }
+
+
+ .nav-menu{
+    font-size: 2.4rem;
+    padding-right: 50px;
+ }
+
+
+ /* --------------intro section ------------------- */
+
+ .intro {
+    width: 100%; 
+  
+ }
+
+ .back {
+    width: 100%;
+     /* position: absolute; */
+     z-index: -2;
+ }
+
+ .front {
+    width: 100%;
+    float: left;
+    left: 25%;
+     clip-path: polygon(74% 0, 75% 63%, 76% 100%, 0 100%, 0 0);
+     position: absolute;
+     z-index: -1;
+ } 
+
+ .simplify {
+     margin-top: 100px;
+     font-weight: 500; 
+     font-size: 3.5em;
+     text-align: center;
+ }
+
+ .simplify span {
+     color: #f637ec;
+     font-weight: 500;
+ }
+
+ .hurry {
+     margin-top: 60px;
+     font-size: 26px;
+     font-weight: 500;
+     color: #fcf7f0a4;
+     text-align: center;
+ }
+
+ .get {
+     display: flex;
+     justify-content: center;
+     margin-top: 80px;
+     font-size: 24px;
+     font-weight: 600;
+ }
+
+ .get img:first-child {
+     width: 200px;
+     height: 40px;
+ }
+
+ .arrow {
+     position: relative;
+     right: 80px;
+     width: 70px;
+ }
+
+ .get p {
+     position: relative;
+     right: 105px;
+     margin-top: 5px;
+ }
+
+ .counting {
+     display: flex;
+     /* flex-direction: column; */
+     margin-top: 80px;
+     gap: 1%;
+     justify-content: center;
+ }
+
+ .counting div{
+    display: flex;
+ }
+
+ .num {
+     font-size: 50px;
+     font-weight: 600;
+ }
+
+ .plus {
+     color: #f637ec;
+     font-size: 50px;
+     font-weight: 600;
+ }
+
+ .exp {
+     font-size: 24px;
+     font-weight: 500;
+ }
+
+ .vector {
+     margin: 0 40px;
+ }
+
+ /* ------------logo image------------  */
+
+ .logoImg {
+     background-color: #292929;
+     /* height: 200px; */
+     display: flex;
+     justify-content: center;
+     gap: 10%;
+     flex-wrap: wrap;
+     width: 100%;
+ }
+
+ .iconsimg {
+     width: 130px;
+     margin: 30px 0px;
+ }
+
+ /* ----------------features--------------------  */
+
+ .up {
+    margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     text-align: center;
+ }
+
+ .best {
+     font-size: 50px;
+     font-weight: 500;
+ }
+
+ .best span {
+     color: #f637ec;
+     font-weight: 600;
+ }
+
+ .services {
+     color: #909090f4;
+     font-size: 20px;
+
+ }
+
+ .down {
+     display: flex;
+     gap: 70px;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+     padding: 70px 0px;
+
+ }
+
+ .box {
+     border: 2px solid #909090;
+     width: 270px;
+     height: 270px;
+     margin-left: 30px;
+     font-weight: 600;
+     font-size: 18px;
+ }
+
+ .box p {
+     text-align: center;
+     margin-top: 12px;
+ }
+
+ .box:hover {
+    position: relative;
+     background-color: #454140;
+     transition: all 0.5s ease-in-out;
+     transform: translateY(-50px);
+ }
+
+ .box img {
+     width: 120px;
+     margin: 40px 0px 0px 80px;
+ }
+
+ /*--------------------- card choices ----------------------- */
+
+ .choices {
+    width: 100%;
+     background-color: #fceffb;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .unique {
+     color: #151515;
+     font-size: 40px;
+     font-weight: 500;
+     margin-top: 100px;
+     text-align: center;
+ }
+
+ .unique span {
+     color: #f637ec;
+     font-weight: 600;
+     line-height: 1.5;
+ }
+
+ .editing {
+     color: #151515a4;
+     font-size: 15px;
+     font-weight: 600;
+     margin-top: 40px;
+ }
+
+ .choices img {
+     width: 100%;
+ }
+
+ /*-------------------- reviews----------------  */
+
+ .reviews {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .reviewspara1 {
+     font-size: 50px;
+     font-weight: 500;
+     margin-top: 120px;
+     text-align: center;
+ }
+
+ .reviewspara1 span {
+     color: #f637ec;
+     font-weight: 600;
+ }
+
+ .reviewspara2 {
+     color: #747373f4;
+     font-weight: 500;
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ .reviewBox {
+     display: flex;
+     gap: 70px;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 70px 0px;
+
+ }
+
+ .review {
+     width: 500px;
+     height: 280px;
+     border: 2px solid #909090;
+     background-color: #1e1f24;
+ }
+
+ .review:hover {
+     background-color: #4f4d4c;
+     transition: all 0.5s ease-in-out;
+     transform: translateY(-50px);
+ }
+
+ .review img {
+     margin: 20px;
+ }
+
+ .reviewpara {
+     margin: 20px;
+ }
+
+ .name {
+     margin-left: 20px;
+     margin-top: 40px;
+
+ }
+
+ .country {
+     margin-left: 20px;
+     margin-top: 5px;
+ }
+
+ .dotted{
+    text-align: center;
+ }
+
+ .rect {
+     height: 10px;
+     width: 48px;
+     background-color: #f637ec;
+     border-radius: 30px;
+     display: inline-block;
+ }
+
+ .dot {
+     height: 10px;
+     width: 10px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+ }
+
+ /*----------------------- custom  card--------------------------- */
+
+ .customs{
+    position: relative;
+    width: 100%;
+ }
+
+ .downback {
+     width: 100%;
+     opacity: 0.8;
+ }
+
+  .back1 {
+     position: absolute;
+     opacity: 0.8;
+ }
+
+ .diamondleft {
+     position: absolute;
+     right: 0px;
+     width: 30%;
+ }
+
+ .diamondright {
+     position: absolute;
+     left: 0px;
+     width: 30%;
+ } 
+
+ .start {
+    width: 100%;
+     position: absolute;
+     top: 25%;      
+ }
+
+ .startpara{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: #fceffb;
+ }
+
+ .startpara span{
+    color:#151515;
+ }
+
+ .startdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+ }
+
+ .startdownbtn{
+    width: 90px;
+    height: 40px;
+ }
+
+ .startdown p{
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+    margin-top: 7px;
+ }
+
+ .startdownarrow{
+    width: 75px;
+    margin-left: -35px;
+ }
+
+/*-------------------- footer-----------  */
+
+ footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+ }
+
+ footer img{
+    height: 50px;
+ }
+
+ .footerlist{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+ }
+
+ .footerlist li{
+    font-weight: 500;
+ }
