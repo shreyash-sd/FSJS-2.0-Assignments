@@ -9,19 +9,18 @@
 ## 3) [CSS Flexbox](https://shreyashdawake.hashnode.dev/css-flexbox)
 
 
-## 4) [Positions in CSS](https://kaushik543.hashnode.dev/positions-property)
+## 4) [Positions in CSS](https://shreyashdawake.hashnode.dev/positions-in-css)
 
 
-## 5) [CSS Grid - 1](https://kaushik543.hashnode.dev/css-grids)
+## 5) [CSS Grid](https://shreyashdawake.hashnode.dev/css-grid)
 
 
-## 6) [CSS Grid - 2](https://kaushik543.hashnode.dev/css-grids-1)
+## 6) [Media Query ](https://hashnode.com/post/clhm057cv000y09kwhr1de3r3)
 
 
-## 7) [Array methods in js](https://kaushik543.hashnode.dev/array-methods-in-js)
+## 7) [CSS Box Model](https://shreyashdawake.hashnode.dev/css-box-model)
 
 
-## 8) [Git and GitHub](https://kaushik543.hashnode.dev/git-and-github)
 
 
-## 9) [Git tool and strategies](https://kaushik543.hashnode.dev/git-tools-stratergies)
+
